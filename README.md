@@ -1,1 +1,1 @@
-# This repo contains data structure implemented in javacript
+# This repo contains data structure implemented in javascript

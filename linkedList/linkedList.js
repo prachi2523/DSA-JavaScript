@@ -110,23 +110,35 @@ class LinkedList{
 
 
 const linkedList=new LinkedList()
+const linkedList2=new LinkedList()
+
 
 linkedList.inserAtFirst(4)
 linkedList.inserAtFirst(2)
-linkedList.inserAtFirst(4)
+linkedList.inserAtFirst(3)
 linkedList.inserAtFirst(8)
 linkedList.inserAtLast(10)
 
-console.log(linkedList.size(),"SIZE")
-linkedList.printList()
+
+linkedList2.inserAtFirst(4)
+linkedList2.inserAtFirst(2)
+linkedList2.inserAtFirst(3)
+linkedList2.inserAtFirst(8)
+linkedList2.inserAtLast(10)
+
+
+// console.log(linkedList.size(),"SIZE")
+// linkedList.printList()
 
 // linkedList.removeFirst();
-linkedList.removeLast();
+// linkedList.removeLast();
 
-console.log(linkedList.size(),"After remove SIZE")
+// console.log(linkedList.size(),"After remove SIZE")
 
-linkedList.addAt(78,3)
+// linkedList.addAt(78,3)
 
-linkedList.removeAt(2)
+// linkedList.removeAt(2)
 
 linkedList.printList()
+console.log("****")
+linkedList2.printList()
